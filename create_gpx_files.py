@@ -10,8 +10,8 @@ import geopy.distance
 # constants
 START_FACILITY = 0
 END_FACILITY = 500
-JSON_DIR = "../json/"
-GPX_DIR = "../gpx/"
+JSON_DIR = "../data/json/"
+GPX_DIR = "../data/gpx/"
 
 # Limits
 MAX_LOCATION_DISTANCE = 1.0    # kms.

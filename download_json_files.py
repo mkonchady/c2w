@@ -6,7 +6,7 @@ import requests
 
 START_FACILITY = 0
 END_FACILITY = 500
-IMPORT_DIR = "../json/"
+IMPORT_DIR = "../data/json/"
 for i in range (START_FACILITY, END_FACILITY):
     url = "https://cycleto.work/api/v1/public/routes?facility_id=" + str(i)
     r = requests.get(url, allow_redirects=True)
